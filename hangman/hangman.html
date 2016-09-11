@@ -4,32 +4,26 @@
     <meta charset="utf-8">
     <title>Hangman Game</title>
     <link href="main.css" rel="stylesheet" />
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
   </head>
+  
   <body>
     <form id = "myForm">
     <div id = "container">
       <div id = "header">
         <p>
           You have <span id='live'>6</span> lives left!
-          <br>
         </p>
         <h1 id = "word"></h1>
         <input type="text" id="guess" />
         <input type="submit" id="search" value="Check">
       </div>
-
-
     </div>
 
     <div id="btn">
       <button class="btn btn-primary" onclick="resetForm">
         <span class="glyphicon glyphicon glyphicon-refresh"></span> Restart
       </button>
-
-
     </div>
 
     <div id="image">
@@ -39,7 +33,6 @@
   </form>
     <!-- Latest compiled and minified JavaScript -->
     <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script type="text/javascript" src= "hangman.js"></script>
   </body>
